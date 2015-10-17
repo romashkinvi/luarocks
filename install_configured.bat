@@ -1,0 +1,4 @@
+rem .\install.bat /MW /LV 5.1 /F /INC "c:\Program Files (x86)\Lua\5.1\include\" /LIB "d:\Users\vromashkin\Documents\svn\samson\BridgeFederate\BridgeFederate_lua\BridgeFederate\" /BIN "d:\Users\vromashkin\Documents\svn\samson\BridgeFederate\BridgeFederate_lua\BridgeFederate\"
+rem .\install.bat /MW /LV 5.1 /F /LUA "c:\Program Files (x86)\Lua\5.1\"
+rem .\install.bat /MW /F /LV 5.1 /LUA "d:\Users\vromashkin\Documents\svn\samson\BridgeFederate\BridgeFederate_lua\BridgeFederate\" /INC "c:\Program Files (x86)\Lua\5.1\include\" /TREE "d:\luarocks\"
+.\install.bat /F /MW /LV 5.1 /LUA "c:\LuaJIT\bin\" /INC "c:\LuaJIT\src\" /TREE "d:\luarocks\"
